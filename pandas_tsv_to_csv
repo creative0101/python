@@ -2,7 +2,7 @@
 import pandas as pd
 
 # reading given tsv file using pandas read table
-csv_table = pd.read_table(r'###path_on_your_machine###name.basics.tsv', sep='\t')
+csv_table = pd.read_table(r'###path_on_your_machine###name.basics.tsv', sep='\t', low_memory=False)
 
 # converting tsv file into csv
 csv_table.to_csv('name.basics.csv', index=False)

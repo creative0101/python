@@ -1,3 +1,3 @@
 # python
 
-This rep shows my usage of python to solve problems mostly relating to data analysis.
+This rep shows my usage of python and its library pandas to solve problems mostly relating to data analysis.

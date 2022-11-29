@@ -43,8 +43,6 @@ non_us.head(30)
 
 #remove entities associated with the US and Canada to clean the data
 
-# non_us_clean = non_us.loc[~((non_us['entity'] == 'U.S') | (non_us['entity'] == 'Canada')), :]
-
 non_us_clean = non_us.loc[((non_us['entity'] != 'U.S') | (non_us['entity'] == 'Canada')), :]
 
 non_us_clean.head(30)
